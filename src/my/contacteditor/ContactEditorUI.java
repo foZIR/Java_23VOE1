@@ -7,12 +7,12 @@ package my.contacteditor;
 
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JOptionPane;
-import java.util.LinkedList;
+import java.util.ArrayList;
 
  
 public class ContactEditorUI extends javax.swing.JFrame {
     
-  LinkedList<RecIntegral> arrIntag = new LinkedList<>();
+  ArrayList<RecIntegral> arrIntag = new ArrayList<>();
     /**
      * Creates new form ContactEditorUI
      */
